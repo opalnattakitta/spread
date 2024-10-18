@@ -1,19 +1,26 @@
 :root {
-	-root-size: 1.2rem;
-	-fg-color: #000;
+	--root-size: 1.2rem;
+	--fg-color: #000;
 }
 body {
-	font size: var(-root-size);
+	font size: var(--root-size);
 	font-family: system-ui, san-serif;
 	padding: var(--root-size);
 }
 
 h1{
-	font-size: calc;
+	font-size: calc(var(--root-size) * 2);
+}
+
+.responsive-row{
+	margin-top:var(--root-size);
+	display: flex;
+	flex-direction: column;
+	gap:var(--root-size);
 }
 
 @media (min-width: 600px) {
 	:root{
-		-root-size:1.5rem;
+		--root-size:1.5rem;
 	}
 }
