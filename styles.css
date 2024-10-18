@@ -1,0 +1,13 @@
+:root {
+	--root-size: 1.2rem
+}
+body {
+	font size: var(--root-size)
+	font-family: 
+}
+
+@media (min-width: 600px) {
+	:root {
+		--root-size:1.5
+	}
+}
