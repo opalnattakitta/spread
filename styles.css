@@ -5,6 +5,7 @@
 body {
 	font size: var(-root-size);
 	font-family: system-ui, san-serif;
+	padding: var(--root-size);
 }
 
 h1{
