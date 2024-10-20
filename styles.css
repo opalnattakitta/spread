@@ -2,9 +2,10 @@
 	--root-size: 1.2rem;
 	--fg-color: #000;
 }
+
 body {
 	font-size: var(--root-size);
-	font-family: system-ui, san-serif;
+	font-family: "Teachers", sans-serif;
 	padding: var(--root-size);
 }
 
@@ -24,6 +25,7 @@ h1{
 		--root-size:1.5rem;
 	}
 }
+
 
 /*h1= Main title "italic not italic" */
 /*h2= Subheading of each section */
