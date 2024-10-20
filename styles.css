@@ -7,22 +7,14 @@
 	font-family: "UnifrakturMaguntia";
 }
 
-body {
-	font-size: var(--root-size);
-	font-family: "Teachers", sans-serif;
-	padding: var(--root-size);
+#title-highlight {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 45px;
 }
 
-h1{
-	font-size: calc(var(--root-size) * 2);
-}
-
-h4 {
-background-color: white;
-}
-
-div {
-	background-color: salmon;
+.italic-style{
+	font-style: italic;
 }
 
 .responsive-row{
@@ -30,6 +22,65 @@ div {
 	display: flex;
 	flex-direction: column;
 	gap:var(--root-size);
+}
+
+div {
+	font-size: 18px;
+	background-color: salmon;
+	text-align: right;
+}
+
+blockquote {
+	font-family: "Spectral", serif;
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+aside {
+	font-family: "Spectral", serif;
+	font-weight: 200;
+	font-size: 20px;
+	text-align: right;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+body {
+	font-size: var(--root-size);
+	font-size: 22px;
+	font-family: "Teachers", sans-serif;
+	line-height: 33px;
+	padding: var(--root-size);
+}
+
+h4 {
+	background-color: white;
+	}
+
+h3{
+	font-family: "Spectral", serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-family: "Spectral", serif;
+	font-size: calc(var(--root-size) * 2);
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 @media (min-width: 600px) {
