@@ -3,6 +3,10 @@
 	--fg-color: #000;
 }
 
+#example-1 {
+	font-family: "UnifrakturMaguntia";
+}
+
 body {
 	font-size: var(--root-size);
 	font-family: "Teachers", sans-serif;
