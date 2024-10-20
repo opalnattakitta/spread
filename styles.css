@@ -3,7 +3,7 @@
 	--fg-color: #000;
 }
 body {
-	font size: var(--root-size);
+	font-size: var(--root-size);
 	font-family: system-ui, san-serif;
 	padding: var(--root-size);
 }
