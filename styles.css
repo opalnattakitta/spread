@@ -13,11 +13,11 @@
 	font-size: 45px;
 }
 
-.italic-style{
+.italic-style {
 	font-style: italic;
 }
 
-.responsive-row{
+.responsive-row {
 	margin-top:var(--root-size);
 	display: flex;
 	flex-direction: column;
@@ -45,6 +45,7 @@ aside {
 }
 
 p {
+	line-height: 33px;
 	margin-bottom: 20px;
 }
 
@@ -52,7 +53,6 @@ body {
 	font-size: var(--root-size);
 	font-size: 22px;
 	font-family: "Teachers", sans-serif;
-	line-height: 33px;
 	padding: var(--root-size);
 }
 
