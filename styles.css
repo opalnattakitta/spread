@@ -13,6 +13,14 @@ h1{
 	font-size: calc(var(--root-size) * 2);
 }
 
+h4 {
+background-color: white;
+}
+
+div {
+	background-color: salmon;
+}
+
 .responsive-row{
 	margin-top:var(--root-size);
 	display: flex;
