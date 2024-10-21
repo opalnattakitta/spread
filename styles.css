@@ -3,6 +3,11 @@
 	--fg-color: #000;
 }
 
+/*i dont know where to put this*/
+padding: var(--root-size);
+font-size: var(--root-size);
+
+
 #example-1 {
 	font-family: "UnifrakturMaguntia";
 }
@@ -24,10 +29,30 @@
 	gap:var(--root-size);
 }
 
-div {
-	font-size: 18px;
-	background-color: salmon;
+.bold{
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.align-right{
 	text-align: right;
+}
+
+.example-box
+
+.source-box
+
+.aside-box{
+	font-size: 10px;
+	text-align: right;
+}
+
+/*emphasize-italic style*/
+em{
+	font-style: italic;
 }
 
 blockquote {
@@ -37,26 +62,26 @@ blockquote {
 	margin-bottom: 100px;
 }
 
+/*quote*/
 aside {
 	font-family: "Spectral", serif;
-	font-weight: 200;
-	font-size: 20px;
+	font-size: 21px;
+	font-style: italic;
+	padding-left: 100px;
+	text-align: left;
+	text-indent: 50px;
+	max-width: 900px;
+}
+
+div {
+	font-size: 18px;
+	background-color: salmon;
 	text-align: right;
-}
-
-p {
-	line-height: 33px;
-	margin-bottom: 20px;
-}
-
-body {
-	font-size: var(--root-size);
-	font-size: 22px;
-	font-family: "Teachers", sans-serif;
-	padding: var(--root-size);
+	padding-left: 320px;
 }
 
 h4 {
+	font-size: 20px;
 	background-color: white;
 	}
 
@@ -66,13 +91,20 @@ h3{
 	font-style: italic;
 	font-weight: 500;
 	margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+h4,h5{
+	margin-right: 60px;
+	text-align: right;
 }
 
 h2{
 	font-size: 25px;
 	font-style: italic;
 	font-weight: 500;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	margin-left: 60px;
 }
 
 h1{
@@ -81,6 +113,19 @@ h1{
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 50px;
+}
+
+p {
+	line-height: 33px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	max-width: 1000px;
+}
+
+body {
+	font-size: 21px;
+	font-family: "Teachers", sans-serif;
+	padding-left: 50px;
 }
 
 /*dropdown menu*/
