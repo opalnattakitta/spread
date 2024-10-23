@@ -1,10 +1,21 @@
 :root {
-	--root-size: 1.2rem;
+	--root-size: 16px;
+	--spacing: 15px;
 }
+	
 
-/*i dont know where to put this*/
-padding: var(--root-size);
-font-size: var(--root-size);
+/* Reponsive Mobile minimium 400px*/
+@media (min-width: 500px) {
+	root: {
+		--root-size: 16px;
+		--spacing: 15px;
+	}
+
+	body {
+		font-size: var(--font-size);
+		padding: var(--spacing);
+	}
+}
 
 
 #example-1 {
@@ -154,37 +165,6 @@ details p: ::before {
 	color: salmon;
 }
 
-/* Reponsive of when screen is smaller than 1280px*/
-@media (min-width: 1280px) {
-}
-
-/* Reponsive of when screen is smaller than 1280px*/
-@media (min-width: 375px) {
-	nav {	
-		font-size: 1rem;
-	}
-
-	body {
-		padding: 10%;
-		align-content: left;
-	}
-
-	section {
-		font-size: 1rem;
-	}
-
-	h1 {
-		font-size: 1.5rem;
-	}
-
-	h2 {
-		font-size: 1.1rem;
-	}
-
-	blockquote {
-		font-size: 1.1rem;
-	}
-}
 
 
 
