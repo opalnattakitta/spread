@@ -2,21 +2,11 @@
 	--root-size: 16px;
 	--spacing: 15px;
 }
-	
 
-/* Reponsive Mobile minimium 400px*/
-@media (min-width: 500px) {
-	root: {
-		--root-size: 16px;
-		--spacing: 15px;
-	}
-
-	body {
-		font-size: var(--font-size);
-		padding: var(--spacing);
-	}
+body {
+	font-size: var(--root-size);
+	padding: var(--spacing);
 }
-
 
 #example-1 {
 	font-family: "UnifrakturMaguntia";
@@ -167,6 +157,13 @@ details p {
 	color: salmon;
 }
 
+/* Reponsive Mobile minimium 400px*/
+@media (min-width: 500px) {
+	:root {
+		--root-size: 16px;
+		--spacing: 15px;
+	}
+}
 
 
 
