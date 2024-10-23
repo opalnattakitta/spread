@@ -83,6 +83,11 @@ aside {
 	max-width: 900px;
 }
 
+h5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 h4 {
 	font-size: 20px;
 	background-color: white;
@@ -116,18 +121,20 @@ h1{
 }
 
 div {
-	background-color: salmon;
-	border-radius: 10px;
-	text-align: right;
+	background-color: rgb(255, 188, 180);
+	width: fit-content;
 	max-width: 350px;
-	margin-left: 1000px;
+	text-align: left;
 	font-size: 18px;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid salmon;
+	border-radius: 5px;
 }
 
 p {
 	line-height: 33px;
 	margin-bottom: 30px;
-	margin-left: 60px;
 	max-width: 1000px;
 }
 
