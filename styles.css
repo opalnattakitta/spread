@@ -128,13 +128,13 @@ body {
 
 /*dropdown menu*/
 details {
-	background-color: salmon;
+	background-color: white;
 	border: 1px solid black;
 	border-radius: 1px;
-	padding: 15px;
+	padding: 20px;
 	max-width: 400px;
 	margin: 20px auto;
-	box-shadow: 0px 2px 8px;
+	box-shadow: 0px 1px 0px 1px;
 }
 
 summary {
@@ -143,6 +143,15 @@ summary {
 
 summary [open] summary {
 	color: salmon
+}
+
+details p {
+	font-size: 1rem;
+	margin: 10px 0
+}
+
+details p: ::before {
+	color: salmon;
 }
 
 /* Reponsive of when screen is smaller than 1280px*/
