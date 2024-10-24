@@ -187,6 +187,15 @@ details p {
 	width: 200px;
 	line-height:0.95rem;
 }
+
+.source h4 {
+	line-height: 1.1rem;
+}
+
+.aside {
+	margin-left: 50px;
+}
+
 }
 
 /* Reponsive Mobile minimium 400px*/
