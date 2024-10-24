@@ -182,7 +182,7 @@ details p {
 }
 
 /* Reponsive Mobile minimium 400px*/
-@media (min-width: 500px) {
+@media (max-width: 400px) {
 	:root {
 		--root-size: 16px;
 		--spacing: 15px;
