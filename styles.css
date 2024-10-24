@@ -187,11 +187,25 @@ details p {
 		--root-size: 16px;
 		--spacing: 15px;
 	}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
 }
+
+.text {
+	grid-column: 1 /span 5;
+}
+
+.source {
+	grid-column: 1 / span 5;
+}
+
+.aside {
+	margin-left: 30px;
+}
+
 }
 
 
