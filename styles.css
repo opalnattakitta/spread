@@ -118,7 +118,6 @@ div {
 
 p {
 	line-height: 33px;
-	margin-bottom: 30px;
 	max-width: 1000px;
 }
 
@@ -137,6 +136,7 @@ details {
 	max-width: 330px;
 	margin: 20px auto;
 	box-shadow: 0px 1px 0px 1px;
+	position: fixed;
 }
 
 summary {
@@ -159,6 +159,10 @@ details p {
 
 .text{
 	grid-column:1 / span 3;
+}
+
+.source {
+	grid-column: 4 / span 2;
 }
 
 .example{
