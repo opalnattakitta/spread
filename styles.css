@@ -181,6 +181,14 @@ details p {
 	border-left: 2px black solid;
 }
 
+@media (max-width: 800px) {
+.source {
+	font-size: 0.9rem;
+	width: 200px;
+	line-height:0.95rem;
+}
+}
+
 /* Reponsive Mobile minimium 400px*/
 @media (max-width: 400px) {
 	:root {
