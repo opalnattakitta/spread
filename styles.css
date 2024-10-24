@@ -167,6 +167,8 @@ details p {
 	border: 2px solid salmon;
 	border-radius: 5px;
 	background-color: rgb(255, 188, 181);
+	width: 350px;
+	height: 280px;
 }
 
 .example{
