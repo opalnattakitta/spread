@@ -151,13 +151,13 @@ details p {
 	color: salmon;
 }
 
-.grid-container{
+.grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
 }
 
-.text{
+.text {
 	grid-column:1 / span 3;
 }
 
@@ -171,8 +171,14 @@ details p {
 	height: 280px;
 }
 
-.example{
+.example {
 	grid-column: 2 / span 4;
+}
+
+.aside {
+	margin-left: 100px;
+	padding-left: 40px;
+	border-left: 2px black solid;
 }
 
 /* Reponsive Mobile minimium 400px*/
