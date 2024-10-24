@@ -1,6 +1,8 @@
 :root {
 	--root-size: 16px;
 	--spacing: 15px;
+
+	font-size:16px;
 }
 
 body {
@@ -114,10 +116,10 @@ div {
 	text-align: left;
 	font-size: 18px;
 	padding: 20px;
+
 }
 
 p {
-	line-height: 33px;
 	margin-bottom: 30px;
 	max-width: 1000px;
 }
@@ -137,6 +139,8 @@ details {
 	max-width: 330px;
 	margin: 20px auto;
 	box-shadow: 0px 1px 0px 1px;
+	position:fixed;
+	
 }
 
 summary {
@@ -160,17 +164,67 @@ details p {
 .text{
 	grid-column:1 / span 3;
 }
+.source{
+	grid-column: 4 / span 2;
+	margin: 20px;
+	border: 2px solid salmon;
+	border-radius: 5px;
+	background-color: rgb(255, 188, 180);
+	width: 350px;
+	height:280px;
 
+}
 .example{
 	grid-column: 2 / span 4;
 }
+.aside{
+	margin-left: 100px;
+	padding-left:40px;
+	border-left: 2px black solid;
+}
+
+/* #arrow:hover span{
+	content:" ";
+}
+#arrow:hover:before{
+content:"↓";
+} */
+
+@media (max-width: 800px) {
+.source{
+	font-size: 0.9rem;
+	width:200px;
+	line-height:0.95rem;
+}
+.source h4 {
+	line-height:1.1rem;
+}
+.aside {
+	 margin-left: 50px;
+}
+}
+
 
 /* Reponsive Mobile minimium 400px*/
-@media (min-width: 500px) {
+@media (max-width: 400px) {
 	:root {
 		--root-size: 16px;
 		--spacing: 15px;
 	}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+	.text{
+		grid-column:1 / span 5;
+	}
+.source{
+	grid-column:1 / span 5;
+}
+.aside{
+	margin-left:30px;
+}
 }
 
 
