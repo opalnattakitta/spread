@@ -163,6 +163,10 @@ details p {
 
 .source {
 	grid-column: 4 / span 2;
+	margin: 20px;
+	border: 2px solid salmon;
+	border-radius: 5px;
+	background-color: rgb(255, 188, 181);
 }
 
 .example{
