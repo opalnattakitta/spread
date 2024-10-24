@@ -172,6 +172,8 @@ details p {
 
 .example {
 	grid-column: 2 / span 4;
+	border-radius: 5px;
+	border: 2px solid rgb(201, 196, 196);
 }
 
 .aside {
@@ -180,6 +182,7 @@ details p {
 	border-left: 2px black solid;
 }
 
+/* Reponsive in between max 800px*/
 @media (max-width: 800px) {
 .source {
 	font-size: 0.9rem;
@@ -198,7 +201,7 @@ details p {
 
 }
 
-/* Reponsive Mobile minimium 400px*/
+/* Reponsive Mobile max 400px*/
 @media (max-width: 400px) {
 	:root {
 		--root-size: 16px;
