@@ -22,7 +22,7 @@
 }
 
 #slant {
-	transform: skew(-15deg);
+	font-style: oblique 40deg;
 	font-size: 4rem;
 }
 
@@ -35,7 +35,7 @@
 #soap-two {
 	font-size: 7rem;
 	font-weight: 600;
-	transform: skew(-15deg);
+	font-style: oblique 40deg;
 	margin-bottom: 70px;
 }
 
