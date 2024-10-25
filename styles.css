@@ -3,15 +3,48 @@
 	--spacing: 15px;
 }
 
+#grand-army {
+	font-size: 4rem;
+	font-family: "Oswald", sans-serif;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+#managers {
+	font-size: 3rem;
+	font-family: "Oswald", sans-serif;
+	font-style: italic;
+}
+
 #no-slant {
 	font-size: 4rem;
 	height: 5rem;
 }
 
-/*#slant {
+#slant {
 	transform: skew(-15deg);
 	font-size: 4rem;
-}*/
+}
+
+#soap-one {
+	font-size: 7rem;
+	font-weight: 600;
+	margin-bottom: 70px;
+}
+
+#soap-two {
+	font-size: 7rem;
+	font-weight: 600;
+	transform: skew(-15deg);
+	margin-bottom: 70px;
+}
+
+#soap-three {
+	font-size: 7rem;
+	font-weight: 600;
+	font-style: italic;
+	margin-bottom: 30px;
+}
 
 body {
 	font-size: var(--root-size);
@@ -213,9 +246,10 @@ details p {
 @media (max-width: 800px) {
 .source {
 	font-size: 0.9rem;
-	width: 200px;
+	width: auto;
 	line-height:0.95rem;
-	height: 400px;
+	height: auto;
+	grid-column: 1 / span 5;
 }
 
 .source h4 {
@@ -223,7 +257,17 @@ details p {
 }
 
 .aside {
-	margin-left: 50px;
+	margin-left: 60px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.text {
+	grid-column: 1 /span 5;
 }
 
 }
