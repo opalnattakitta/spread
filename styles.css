@@ -3,19 +3,24 @@
 	--spacing: 15px;
 }
 
-body {
-	font-size: var(--root-size);
-	padding: var(--spacing);
-}
-
 #no-slant {
 	font-size: 4rem;
 	height: 5rem;
 }
 
-#slant {
+/*#slant {
 	transform: skew(-15deg);
 	font-size: 4rem;
+}*/
+
+body {
+	font-size: var(--root-size);
+	padding: var(--spacing);
+}
+
+.highlight-number {
+	color: salmon;
+	font-weight: bold;
 }
 
 #backtotop {
@@ -93,7 +98,7 @@ h5 {
 h4 {
 	font-size: 20px;
 	padding: 3px;
-	color: rgb(185, 72, 60);
+	color: salmon;
 	}
 
 h3{
@@ -109,15 +114,16 @@ h2{
 	font-size: 25px;
 	font-style: italic;
 	font-weight: 500;
-	margin-bottom: 40px;
-	margin-left: 60px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	color: salmon;
 }
 
 h1{
 	font-family: "Spectral", serif;
 	font-size: calc(var(--root-size) * 2);
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom: 50px;
 }
 
@@ -182,7 +188,7 @@ details p {
 	margin: 20px;
 	border: 2px solid salmon;
 	border-radius: 5px;
-	background-color: rgb(255, 188, 181);
+	background-color: rgb(253, 244, 243);
 	width: 350px;
 	height: 400px;
 }
