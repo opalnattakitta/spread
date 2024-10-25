@@ -242,7 +242,7 @@ details p {
 	border-left: 2px black solid;
 }
 
-/* Reponsive in between max 800px*/
+/* Reponsive max 800px*/
 @media (max-width: 800px) {
 .source {
 	font-size: 0.9rem;
