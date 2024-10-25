@@ -31,6 +31,10 @@ body {
 	font-family: "UnifrakturMaguntia";
 }
 
+.highlight-word {
+	font-family: "Alegreya" /* Not responsive*/
+}
+
 #title-highlight {
 	text-decoration: underline;
 	font-weight: bold;
