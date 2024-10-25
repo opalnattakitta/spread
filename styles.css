@@ -70,8 +70,8 @@ body {
 	font-size: 45px;
 }
 
-.highlight-word {
-	font-family: "Alegreya" /* Not responsive*/
+#highlight-word {
+	font-family: "Alegreya"
 }
 
 .italic-style {
