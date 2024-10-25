@@ -51,11 +51,6 @@ body {
 	padding: var(--spacing);
 }
 
-.highlight-number {
-	color: salmon;
-	font-weight: bold;
-}
-
 #backtotop {
 	color: salmon;
 }
@@ -72,6 +67,11 @@ body {
 
 #highlight-word {
 	font-family: "Alegreya"
+}
+
+.highlight-number {
+	color: salmon;
+	font-weight: bold;
 }
 
 .italic-style {
@@ -121,20 +121,17 @@ blockquote {
 /*quote*/
 aside {
 	font-family: "Spectral", serif;
-	font-size: 21px;
+	font-size: 18px;
 	font-style: italic;
 	text-align: left;
-	max-width: 900px;
 }
 
 h5 {
-	margin-top: 10px;
 	margin-bottom: 30px;
 }
 
 h4 {
 	font-size: 20px;
-	padding: 3px;
 	color: salmon;
 	}
 
@@ -151,7 +148,6 @@ h2{
 	font-size: 25px;
 	font-style: italic;
 	font-weight: 500;
-	margin-bottom: 20px;
 	margin-left: 40px;
 	color: salmon;
 }
@@ -278,6 +274,14 @@ details p {
 		--root-size: 16px;
 		--spacing: 15px;
 	}
+
+#grand-army {
+	font-size: 2.5rem;
+}
+
+#managers {
+	font-size: 2.3rem;
+}
 
 .grid-container {
 	display: grid;
