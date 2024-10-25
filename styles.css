@@ -8,6 +8,20 @@ body {
 	padding: var(--spacing);
 }
 
+#no-slant {
+	font-size: 4rem;
+	height: 5rem;
+}
+
+#slant {
+	transform: skew(-15deg);
+	font-size: 4rem;
+}
+
+#backtotop {
+	color: salmon;
+}
+
 #example-1 {
 	font-family: "UnifrakturMaguntia";
 }
@@ -68,13 +82,12 @@ aside {
 	font-size: 21px;
 	font-style: italic;
 	text-align: left;
-	text-indent: 50px;
 	max-width: 900px;
 }
 
 h5 {
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 h4 {
@@ -106,6 +119,10 @@ h1{
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 50px;
+}
+
+footer {
+	margin: 20px;
 }
 
 div {
@@ -188,7 +205,7 @@ details p {
 	font-size: 0.9rem;
 	width: 200px;
 	line-height:0.95rem;
-	height: 380px;
+	height: auto;
 }
 
 .source h4 {
@@ -227,7 +244,6 @@ details p {
 }
 
 }
-
 
 
 /*h1= Main title "italic not italic" */
