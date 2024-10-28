@@ -22,8 +22,13 @@
 }
 
 #slant {
-	font-style: oblique 40deg;
+	/* font-style: oblique 40deg; */
+	/* transform: rotate(30deg); */
 	font-size: 4rem;
+}
+#slant>*{
+	transform: rotate(30deg);
+	position: absolute;
 }
 
 #soap-one {
@@ -45,6 +50,22 @@
 	font-style: italic;
 	margin-bottom: 20px;
 }
+
+/* line */
+#container-line-title{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+}
+
+#line{
+	height: 2px;
+	width: 70%;
+	background-color: black;
+	padding: 0px;
+}
+
 
 body {
 	font-size: var(--root-size);
@@ -299,6 +320,11 @@ details p {
 .aside {
 	margin-left: 30px;
 }
+
+}
+
+/* Print */
+@media print and (min-width: 612px) {
 
 }
 
