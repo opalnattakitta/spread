@@ -21,11 +21,14 @@
 	height: 5rem;
 }
 
+/* aaccbbexample */
+
 #slant {
 	/* font-style: oblique 40deg; */
 	/* transform: rotate(30deg); */
 	font-size: 4rem;
 }
+
 #slant>*{
 	transform: rotate(30deg);
 	position: absolute;
@@ -59,9 +62,9 @@
 	width: 100vw;
 }
 
-#line{
-	height: 2px;
-	width: 70%;
+#line {
+	height: 5px;
+	width: 75%;
 	background-color: black;
 	padding: 0px;
 }
