@@ -196,6 +196,11 @@ h1{
 	margin-bottom: 50px;
 }
 
+nav {
+	position: sticky;
+	padding: 40px;
+}
+
 footer {
 	margin: 20px;
 }
