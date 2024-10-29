@@ -288,7 +288,7 @@ details p {
 }
 
 /* Reponsive Mobile max 400px*/
-@media (m: 400px) {
+@media (max-width: 400px) {
 	:root {
 		--root-size: 16px;
 		--spacing: 15px;
@@ -319,6 +319,10 @@ details p {
 .aside {
 	margin-left: 30px;
 }
+
+/* Desktop */
+
+
 
 /* Print */
 @media print and (min-width: 612px) {
