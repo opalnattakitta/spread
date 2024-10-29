@@ -75,7 +75,7 @@
 }
 
 #line {
-	height: 5px;
+	height: 2px;
 	width: 95%;
 	background-color: salmon;
 }
@@ -300,15 +300,14 @@ details p {
 	padding-left: 0;
 } */
 
-/* Reponsive max 1280px*/
-
+/* Reponsive desktop min-width 1280px*/
 @media screen and (min-width: 1280px) {
 
-	/* .grid-container {
+	.grid-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: auto;
-	} */
+	}
 	
 	.text {
 		grid-column:1 / span 3;
