@@ -193,7 +193,8 @@ h1{
 
 nav {
 	position: sticky;
-	padding: 40px;
+	padding-left: 80px;
+	padding-top: 40px;
 }
 
 footer {
