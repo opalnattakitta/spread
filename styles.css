@@ -320,14 +320,19 @@ details p {
 	margin-left: 30px;
 }
 
-/* Desktop */
-
-
-
 /* Print */
 @media print and (min-width: 612px) {
+	details: [open] > *:not(summary) {
+		display: none;
+	}
+}
+
+/* Desktop */
+@media (min-width: 1300px) {
 
 }
+
+
 
 
 /*h1= Main title "italic not italic" */
