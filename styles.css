@@ -65,7 +65,7 @@
 #line {
 	height: 5px;
 	width: 75%;
-	background-color: black;
+	background-color: salmon;
 	padding: 0px;
 }
 
@@ -120,10 +120,6 @@ body {
 .align-right{
 	text-align: right;
 }
-
-.example-box
-
-.source-box
 
 .aside-box{
 	font-size: 10px;
@@ -292,7 +288,7 @@ details p {
 }
 
 /* Reponsive Mobile max 400px*/
-@media (max-width: 400px) {
+@media (m: 400px) {
 	:root {
 		--root-size: 16px;
 		--spacing: 15px;
@@ -322,8 +318,6 @@ details p {
 
 .aside {
 	margin-left: 30px;
-}
-
 }
 
 /* Print */
