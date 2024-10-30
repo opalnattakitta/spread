@@ -342,7 +342,29 @@ details p {
 }
 
 @media screen and (min-width: 1000px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+	}
+	
+	.text {
+		grid-column:1 / span 3;
+	}
 
+	.source {
+		grid-column: 4 / span 2;
+	}	
+
+			
+	.example {
+		grid-column: 2 / span 4;
+	}	
+
+	.aside {
+			margin-left: 100px;
+			padding-left: 40px;	
+	}
 }
 
 
