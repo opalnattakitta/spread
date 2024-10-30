@@ -39,6 +39,7 @@
 	font-size: 7rem;
 	font-weight: 600;
 	margin-bottom: 70px;
+	margin-top: 40px;
 }
 
 #soap-two {
@@ -268,6 +269,7 @@ details p {
 	border-radius: 5px;
 	border: 2px solid rgb(201, 196, 196);
 	margin: 40px;
+	padding: 30px;
 }
 
 .aside {
