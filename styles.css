@@ -274,14 +274,10 @@ details p {
 	z-index: -100;
 }
 
-.example::before {}
 
 .aside {
 	margin-left: 30px;
 } 
-
-
-
 
 /* .text {
 	grid-column:1 / span 3;
