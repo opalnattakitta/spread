@@ -162,6 +162,14 @@ blockquote {
 	padding: 20px;
 }
 
+blockquote p::before {
+	content: '\201C';
+}
+
+blockquote p::after {
+	content: '\201D';
+}
+
 /*quote*/
 aside {
 	font-family: "Spectral", serif;
@@ -350,27 +358,30 @@ details p {
 			margin-left: 100px;
 			padding-left: 40px;	
 	}
-	#up-top{
+	#up-top {
 		text-align: right;
 	}
 	footer {
 		display: grid;
 		grid-template-columns: auto 160px;
 	}
-	#footer-item:nth-child(1){
+	#footer-item:nth-child(1) {
 		grid-column: 1;
 	}
-	#footer-item:nth-child(2){
+	#footer-item:nth-child(2) {
 		grid-column: 2;
 	}
 }
 
 @media print {
 	
-	details{
+	details {
 		display: none;
 	}
 
+		h1 {
+			margin-top: 80px;
+		}
 }
 
 /*h1= Main title "italic not italic" */
