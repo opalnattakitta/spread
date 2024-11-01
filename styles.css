@@ -264,15 +264,15 @@ details p {
 	color: salmon;
 }
 
-.grid-container {
+/* .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
-}
+} */
 
-.text {
+/* .text {
 	grid-column: 1 /span 5;
-}
+} */
 
 .source {
 	grid-column: 1 / span 5;
@@ -362,7 +362,7 @@ details p {
 		text-align: right;
 	}
 
-	footer {
+	/* footer {
 		display: grid;
 		grid-template-columns: auto 160px;
 	}
@@ -371,7 +371,7 @@ details p {
 	}
 	#footer-item:nth-child(2) {
 		grid-column: 2;
-	}
+	} */
 }
 
 @media print {
