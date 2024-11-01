@@ -395,11 +395,8 @@ details p {
 	}
 }
 
-@media screen (min-width: 375px) {
-	.grid-container {
-		display: grid;
-		grid-template-columns: 10px 10px 10px 10px 10px;
-	}
+@media screen and (min-width: 375px) {
+	
 }
 
 /*h1= Main title "italic not italic" */
