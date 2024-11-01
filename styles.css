@@ -395,6 +395,10 @@ details p {
 	}
 }
 
+@media screen (min-width: 375px) {
+	
+}
+
 /*h1= Main title "italic not italic" */
 /*h2= Subheading of each section */
 /*h3= Subheading of aside or quote */
