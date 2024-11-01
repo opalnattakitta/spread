@@ -360,6 +360,7 @@ details p {
 	#up-top {
 		text-align: right;
 	}
+
 	footer {
 		display: grid;
 		grid-template-columns: auto 160px;
