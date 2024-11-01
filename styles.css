@@ -379,10 +379,6 @@ details p {
 		display: none;
 	}
 
-	h1 {
-		margin-top: 80px;
-	}
-
 	p {
 		font-size: 1rem;
 		line-height: 30px;
@@ -394,10 +390,7 @@ details p {
 
 	.source {
 		break-inside: avoid;
-	}
-
-	.container-line-title {
-		padding: 0;
+		height: auto;
 	}
 }
 
