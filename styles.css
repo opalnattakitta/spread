@@ -54,19 +54,19 @@
 }
 
 /* line */
-.container-line-title{
+.container-line-title {
 	display:grid;
 	grid-template-columns:350px auto;
 	align-items: center;
 	width: 100vw;
 }
 
-#c2{
+#c2 {
 	grid-template-columns:150px auto;
 	padding-left: 40px;
 }
 
-#c3{
+#c3 {
 	grid-template-columns:350px auto;
 	padding-left: 40px;
 }
@@ -379,9 +379,26 @@ details p {
 		display: none;
 	}
 
-		h1 {
-			margin-top: 80px;
-		}
+	h1 {
+		margin-top: 80px;
+	}
+
+	p {
+		font-size: 1rem;
+		line-height: 30px;
+	}
+
+	.example {
+		break-inside: avoid;
+	}
+
+	.source {
+		break-inside: avoid;
+	}
+
+	.container-line-title {
+		padding: 0;
+	}
 }
 
 /*h1= Main title "italic not italic" */
