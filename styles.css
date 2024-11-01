@@ -3,8 +3,6 @@
 	--spacing: 0.9rem; /*15px*/
 }
 
-
-
 #grand-army {
 	font-size: 3.8rem;
 	font-family: "Oswald", sans-serif;
@@ -110,8 +108,6 @@
 #title-highlight:hover {
 	font-style: italic;
 }
-
-
 
 #highlight-word {
 	font-family: "Alegreya"
@@ -298,7 +294,6 @@ details p {
 .aside {
 	margin-left: 30px;
 }
-
 
 /* Reponsive desktop min-width 1280px*/
 @media screen and (min-width: 1280px) {
