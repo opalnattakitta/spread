@@ -3,6 +3,8 @@
 	--spacing: 0.9rem; /*15px*/
 }
 
+
+
 #grand-army {
 	font-size: 3.8rem;
 	font-family: "Oswald", sans-serif;
@@ -396,7 +398,16 @@ details p {
 }
 
 @media screen and (min-width: 375px) {
-	
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+	}
+
+	main {
+		max-width: 100vw;
+
+	}
 }
 
 /*h1= Main title "italic not italic" */
