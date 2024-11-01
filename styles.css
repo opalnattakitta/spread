@@ -27,7 +27,7 @@
 	padding-bottom:60px;
 }
 
-#slant>*{
+#slant>* {
 	transform: rotate(20deg);
 	position: absolute;
 }
@@ -105,7 +105,7 @@
 	font-style: italic;
 }
 
-#title-highlight:hover{
+#title-highlight:hover {
 	font-style: italic;
 }
 
@@ -131,26 +131,26 @@
 	gap:var(--root-size);
 }
 
-.bold{
+.bold {
 	font-weight: bold;
 }
 
-.underline{
+.underline {
 	text-decoration: underline;
 }
 
-.align-right{
+.align-right {
 	text-align: right;
 	font-size: 1.2rem;
 }
 
-.aside-box{
+.aside-box {
 	font-size: 0.6rem; /*10px*/
 	text-align: right;
 }
 
 /*emphasize-italic style*/
-em{
+em {
 	font-style: italic;
 }
 
