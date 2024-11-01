@@ -264,15 +264,15 @@ details p {
 	color: salmon;
 }
 
-/* .grid-container {
+.grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
-} */
+}
 
-/* .text {
+.text {
 	grid-column: 1 /span 5;
-} */
+}
 
 .source {
 	grid-column: 1 / span 5;
@@ -396,7 +396,10 @@ details p {
 }
 
 @media screen (min-width: 375px) {
-	
+	.grid-container {
+		display: grid;
+		grid-template-columns: 10px 10px 10px 10px 10px;
+	}
 }
 
 /*h1= Main title "italic not italic" */
